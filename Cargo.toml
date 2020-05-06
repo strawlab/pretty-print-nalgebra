@@ -7,4 +7,4 @@ edition = "2018"
 [dependencies]
 
 [dev-dependencies]
-nalgebra = "0.20"
+nalgebra = "0.21"
