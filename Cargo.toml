@@ -1,0 +1,10 @@
+[package]
+name = "pretty-print-nalgebra"
+version = "0.1.0"
+authors = ["Andrew Straw <strawman@astraw.com>"]
+edition = "2018"
+
+[dependencies]
+
+[dev-dependencies]
+nalgebra = "0.20"
