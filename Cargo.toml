@@ -1,10 +1,10 @@
 [package]
 name = "pretty-print-nalgebra"
+description = "a small macro-only crate providing ability to pretty-print a 2D nalgebra array"
 version = "0.1.0"
 authors = ["Andrew Straw <strawman@astraw.com>"]
 edition = "2018"
-
-[dependencies]
+license = "MIT/Apache-2.0"
 
 [dev-dependencies]
 nalgebra = "0.27"

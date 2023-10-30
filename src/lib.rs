@@ -1,3 +1,5 @@
+//! a small macro-only crate providing ability to pretty-print a 2D nalgebra array
+
 #[macro_export]
 macro_rules! pretty_print {
     ($arr:expr) => {{
