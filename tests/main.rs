@@ -8,5 +8,5 @@ use na::Matrix2;
 fn it_works() {
     let arr = Matrix2::<f64>::new(1.0, 2.0, 3.0, 4.0);
     let arr_str: String = pretty_print!(arr);
-    println!("{}", arr_str);
+    assert_eq!(&arr_str, "\n           1.000        2.000\n           3.000        4.000");
 }
